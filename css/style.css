@@ -1,11 +1,25 @@
 .sous-titre1{
+    font-family: verdana;
     color: orange;
 }
+.sous-titre2{
+    font-family: verdana;
+    color: #494949;
+}
+.titre2{
+    color: black;
+    font-family: verdana;
+    font-size: 140px;
+    line-height: 110px;
+}
 .titre1{
-    font-size: 50px;
+    color: black;
+    font-family: verdana;
+    font-size: 70px;
+    line-height: 60px;
 }
 .card-spec{
-    background-color: rgb(235,245,230);
+    background-color: rgb(241, 241, 241);
     padding: 5%;
     border-radius: 10px; 
 }
@@ -22,4 +36,17 @@
     padding-top: 18%;
     border-radius: 10px; 
     color: white;
+}
+.card-para{
+    color: dimgray;
+}
+.card-pric{
+    background-color: rgb(241, 241, 241);
+    padding: 5%;
+    border-radius: 10px;
+}
+.card-pric:hover{
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
 }
