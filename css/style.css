@@ -15,7 +15,7 @@
 .titre1{
     color: black;
     font-family: verdana;
-    font-size: 70px;
+    font-size: 60px;
     line-height: 60px;
 }
 .card-spec{
@@ -42,11 +42,39 @@
 }
 .card-pric{
     background-color: rgb(241, 241, 241);
-    padding: 5%;
+    padding: 2%;
     border-radius: 10px;
 }
 .card-pric:hover{
     background-color: white;
-    padding: 5%;
+    padding: 2%;
     border-radius: 10px;
+}
+.btn-pri{
+    background-color: black;
+    color: white;
+    padding: 5%;
+    border-radius: 8px;
+    margin-top: 100px;
+}
+.btn-res{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+
+}
+.btn-res:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.btn-por{
+    background-color: #ffc107;
+    color: black;
+    border-radius: 15px;
+}
+.btn-por:hover{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
