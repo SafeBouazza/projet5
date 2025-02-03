@@ -61,6 +61,7 @@
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border-radius: 8px;
+    width: 100%;
 
 }
 .btn-res:hover{
@@ -77,4 +78,28 @@
     background-color: black;
     color: rgb(255, 255, 255);
     border-radius: 15px;
+}
+.title{
+    color: red;
+    font-size: 70px;
+    margin-bottom: 10%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+input , select , textarea{
+    margin-top: 2%;
+    background-color: rgb(227, 227, 227) !important;
+    border: 2px rgb(139, 139, 139) solid !important;
+}
+#but{
+    margin-top: 2%;
+    width: 50%;
+    background-color: black;
+    margin-left: 25%;
+    border: black;
+}
+#but:hover{
+    margin-top: 2%;
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+    margin-left: 25%;
 }
